@@ -561,7 +561,7 @@ class NerProcessor(DataProcessor):
  'I-Store Closure',
  'B-Moving Homes',
  'I-Mood Improvement',
- 'B-Mattress Shifting','[CLS]', '[SEP]']]
+ 'B-Mattress Shifting','[CLS]', '[SEP]']
         #return ["O", "B-MISC", "I-MISC",  "B-PER", "I-PER", "B-ORG", "I-ORG", "B-LOC", "I-LOC", "[CLS]", "[SEP]"]
 
     def _create_examples(self,lines,set_type):
